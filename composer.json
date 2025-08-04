@@ -1,0 +1,15 @@
+{
+    "name": "snorlex/rector-stan",
+    "description": "Proof of Concept Project for Leveraging Rector to Automatically Apply Fixes for PHPStan Errors",
+    "type": "library",
+    "require-dev": {
+        "rector/rector": "phpstan/phpstan"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Snorlex\\RectorStan\\": "src/"
+        }
+    },
+    "require": {}
+}
